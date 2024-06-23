@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(18, 82, 102);
+  box-shadow: 0 0 10px 2px rgb(65, 64, 64);
+}
+nav li{
+  list-style-type: none;
+  padding-right: 1rem; 
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  color: white;
+  padding-left: 5rem;
+}
+
+.nav-menu {
+  display: flex;
+}
